@@ -8,4 +8,11 @@ class CatalogController < ApplicationController
   	puts params
   	puts "**********"
   end
+
+  def nested
+  	puts "**********"
+  	puts "I am going to generate a view for product #{params[:id]}"
+  	puts params
+  	puts "**********"
+  end
 end
